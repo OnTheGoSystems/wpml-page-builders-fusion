@@ -9,6 +9,11 @@
       "email": "hello@wpml.org"
     }
   ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
   "require": {
     "roave/security-advisories": "dev-master",
     "wpml/page-builders": "dev-master",
