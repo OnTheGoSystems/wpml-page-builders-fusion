@@ -41,9 +41,9 @@ build:
             on_node: 2
             idle_timeout: 4800
             command: "./vendor/bin/phpunit --coverage-clover ./coverage.xml"
-            coverage:
-              file: coverage.xml
-              format: php-clover
+#            coverage:
+#              file: coverage.xml
+#              format: php-clover
     php70:
       environment:
         php: 7.0
