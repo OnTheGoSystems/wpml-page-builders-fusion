@@ -9,6 +9,12 @@
       "email": "hello@wpml.org"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "ssh://git@github.com/OnTheGoSystems/wpml-page-builders.git"
+    }
+  ],
   "autoload": {
     "classmap": [
       "src/"
@@ -16,7 +22,7 @@
   },
   "require": {
     "roave/security-advisories": "dev-master",
-    "wpml/page-builders": "dev-master",
+    "wpml/page-builders": "dev-wpmlcore-5375",
     "jakeasmith/http_build_url": "^1.0"
   },
   "require-dev": {
